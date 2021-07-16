@@ -519,6 +519,7 @@ class ComposerStaticInit7ff8aa4044c550418ef277bbea216f32
         'Bus' => __DIR__ . '/..' . '/october/rain/helpers/Bus.php',
         'Cache' => __DIR__ . '/..' . '/october/rain/helpers/Cache.php',
         'Cms' => __DIR__ . '/..' . '/october/rain/helpers/Cms.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Config' => __DIR__ . '/..' . '/october/rain/helpers/Config.php',
         'Cookie' => __DIR__ . '/..' . '/october/rain/helpers/Cookie.php',
         'Crypt' => __DIR__ . '/..' . '/october/rain/helpers/Crypt.php',
