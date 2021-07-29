@@ -1,12 +1,8 @@
 static-pages:
-    index:
-        home-home-1: {  }
-        home-home-2: {  }
+    index: {  }
     pages:
         pages-about-us: {  }
-        pages-abous-us-2: {  }
         pages-services: {  }
-        pages-services-2: {  }
         pages-pricing: {  }
         pages-team: {  }
     portfolio:
@@ -14,10 +10,11 @@ static-pages:
         portfolio-portfolio-3-columns: {  }
         portfolio-portfolio-4-columns: {  }
         portfolio-portfolio-single: {  }
-    contact-us:
-        contact-us-contact-us: {  }
-        contact-us-contact-us-2: {  }
     terms-services: {  }
     privacy-policy: {  }
     sitemap: {  }
     title: {  }
+    about: {  }
+    campanii: {  }
+    formular-230: {  }
+    doneaza: {  }

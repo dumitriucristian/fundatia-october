@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '789a3e25e040e6c1ce6c687e8a2424131b913ea2',
+        'reference' => '2a4489ed9f647f20e2775aaebe45f53b9cbfcd4e',
         'name' => 'october/october',
         'dev' => true,
     ),
@@ -556,7 +556,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '789a3e25e040e6c1ce6c687e8a2424131b913ea2',
+            'reference' => '2a4489ed9f647f20e2775aaebe45f53b9cbfcd4e',
             'dev_requirement' => false,
         ),
         'october/rain' => array(
@@ -795,6 +795,15 @@
             'install_path' => __DIR__ . '/../../plugins/rainlab/blog',
             'aliases' => array(),
             'reference' => 'e59a0605e5fa360c3665b7369e703f9774df4ec5',
+            'dev_requirement' => false,
+        ),
+        'rainlab/builder-plugin' => array(
+            'pretty_version' => 'v1.0.30',
+            'version' => '1.0.30.0',
+            'type' => 'october-plugin',
+            'install_path' => __DIR__ . '/../../plugins/rainlab/builder',
+            'aliases' => array(),
+            'reference' => '2a7c9594668d9817c2b91a86165e29e9652d2ebb',
             'dev_requirement' => false,
         ),
         'rainlab/mailchimp-plugin' => array(
