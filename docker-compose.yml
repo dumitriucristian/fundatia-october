@@ -15,11 +15,11 @@ services:
 
     environment:
       - DB_TYPE=mysql
-      - DB_HOST=octobercms_mysql_1 #DB_HOST should match the service name of the database container
-      - DB_DATABASE=octobercms
+      - DB_HOST=fundatie_mysql_1 #DB_HOST should match the service name of the database container
+      - DB_DATABASE=fundatie
       - DB_USERNAME=root
       - DB_PASSWORD=root
-    container_name: octobercms_web_1
+    container_name: fundatie_web_1
 
   mysql:
     image: mysql:5.7
@@ -28,12 +28,12 @@ services:
       - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=octobercms
+      - MYSQL_DATABASE=fundatie
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
       - code-network
-    container_name: octobercms_mysql_1
+    container_name: fundatie_mysql_1
     restart: always
   
 networks:
