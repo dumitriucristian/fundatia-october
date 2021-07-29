@@ -2,39 +2,13 @@ name: 'Main Menu'
 items:
     -
         title: Home
-        nesting: '1'
+        nesting: 0
         type: static-page
-        url: ''
+        url: null
         code: ''
         reference: index
-        cmsPage: ''
-        replace: '0'
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: Pages
-        nesting: '1'
-        type: static-page
-        url: ''
-        code: ''
-        reference: pages
-        cmsPage: ''
-        replace: '0'
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: Portfolio
-        nesting: '1'
-        type: static-page
-        url: ''
-        code: ''
-        reference: portfolio
-        cmsPage: ''
-        replace: '0'
+        cmsPage: null
+        replace: 0
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -53,14 +27,38 @@ items:
             cssClass: ''
             isExternal: '0'
     -
-        title: 'Contact Us'
-        nesting: '1'
-        type: static-page
-        url: ''
+        title: Campanii
+        nesting: 1
+        type: blog-category
+        url: null
         code: ''
-        reference: contact-us
-        cmsPage: ''
-        replace: '0'
+        reference: '3'
+        cmsPage: blog/blog-category
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'formular 230'
+        nesting: 0
+        type: static-page
+        url: null
+        code: ''
+        reference: formular-230
+        cmsPage: null
+        replace: 0
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Doneaza
+        nesting: 0
+        type: static-page
+        code: ''
+        reference: doneaza
+        replace: 0
         viewBag:
             isHidden: '0'
             cssClass: ''
